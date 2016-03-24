@@ -1,0 +1,36 @@
+{
+    "name": "riskio/valueobjects-doctrine-type",
+    "description": "Doctrine types related to Nicolò Pignatelli's value objects",
+    "type": "library",
+    "keywords": [
+        "doctrine",
+        "type",
+        "value object"
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/riskio/valueobjects-doctrine-type",
+    "authors": [
+        {
+            "name": "Nicolas Eeckeloo",
+            "email": "neeckeloo@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5",
+        "doctrine/dbal": "~2.5",
+        "nicolopignatelli/valueobjects": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Riskio\\ValueObjects\\DoctrineType\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Riskio\\ValueObjects\\DoctrineType\\": "tests/"
+        }
+    }
+}
