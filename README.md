@@ -10,6 +10,6 @@ The repository provides Doctrine types related to value objects implemented in [
 Requirements
 ------------
 
-* PHP 5.5 or higher
+* PHP 5.6 or higher
 * [Doctrine DBAL](https://github.com/doctrine/dbal)
 * [Nicolò Pignatelli's value objects](https://github.com/nicolopignatelli/valueobjects)
